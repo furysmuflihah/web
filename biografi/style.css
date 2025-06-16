@@ -1,0 +1,66 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya dasar */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #6487ee;
+  padding: 1em;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 2em;
+  margin: 2em auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.layout1 {
+  background-color: #67c2c5;
+}
+
+.layout2 {
+  background-color: #e6e6fa;
+}
+
+.layout3 {
+  background-color: #61b1ce;
+}
+
+.photo {
+  display: block;
+  margin: 1em auto;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
